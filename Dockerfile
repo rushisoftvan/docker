@@ -1,5 +1,5 @@
 # Use an official Java runtime as a parent image
-FROM 21.0.5_11-jdk AS build
+FROM openjdk:17-jdk-slim AS build
 
 # Set the working directory in the container
 WORKDIR /app
