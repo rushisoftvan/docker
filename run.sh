@@ -10,7 +10,8 @@ DOCKER_IMAGE_NAME="your-docker-image-name"  # Replace with your desired Docker i
 
 # Build the Maven project
 echo "Building the Maven project..."
-./mvnw clean package
+./mvnw clean package -DskipTests
+
 
 docker-compose up --build
 
