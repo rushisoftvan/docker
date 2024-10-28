@@ -5,9 +5,6 @@ set -e
 
 git pull
 
-export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64
-
-
 # Define variables
 DOCKER_IMAGE_NAME="your-docker-image-name"  # Replace with your desired Docker image name
 
