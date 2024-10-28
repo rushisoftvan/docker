@@ -70,17 +70,6 @@
 					</excludes>
 				</configuration>
 			</plugin>
-
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<configuration>
-					<includes>
-						<include>**/*Test.java</include>
-					</includes>
-					<testFailureIgnore>true</testFailureIgnore> <!-- Optional: Continue build even if tests fail -->
-				</configuration>
-			</plugin>
 		</plugins>
 	</build>
 
