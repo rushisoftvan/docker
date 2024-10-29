@@ -24,9 +24,9 @@ services:
     networks:
       - springboot-db-net
     environment:
-      SPRING_DATASOURCE_URL: jdbc:mysql://mysql1:3306/test1
-      SPRING_DATASOURCE_USERNAME: user
-      SPRING_DATASOURCE_PASSWORD: root1
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysqldb:3306/test1
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: root
     depends_on:
       - mysqldb
 
